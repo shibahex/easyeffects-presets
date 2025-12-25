@@ -7,7 +7,7 @@
             "floor": 10.0,
             "floor-active": true,
             "harmonics": 10.0,
-            "input-gain": 0.0,
+            "input-gain": -3.0,
             "output-gain": 0.0,
             "scope": 200.0
         },
@@ -648,11 +648,11 @@
         },
         "plugins_order": [
             "filter#1",
-            "stereo_tools#0",
-            "multiband_compressor#0",
-            "equalizer#0",
             "bass_enhancer#0",
             "exciter#0",
+            "multiband_compressor#0",
+            "stereo_tools#0",
+            "equalizer#0",
             "limiter#0"
         ],
         "stereo_tools#0": {
