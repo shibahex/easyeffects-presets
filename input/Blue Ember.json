@@ -12,20 +12,20 @@
         },
         "blocklist": [],
         "plugins_order": [
-            "autogain#0",
             "stereo_tools#0",
-            "rnnoise#1",
-            "speex#0"
+            "autogain#0",
+            "speex#0",
+            "rnnoise#1"
         ],
         "rnnoise#1": {
             "bypass": false,
-            "enable-vad": false,
+            "enable-vad": true,
             "input-gain": 0.0,
             "model-name": "\"\"",
             "output-gain": 0.0,
             "release": 20.0,
             "use-standard-model": true,
-            "vad-thres": 50.0,
+            "vad-thres": 75.0,
             "wet": 0.0
         },
         "speex#0": {
@@ -57,7 +57,7 @@
             "output-gain": 0.0,
             "phasel": false,
             "phaser": false,
-            "sc-level": 1.0,
+            "sc-level": 10.0,
             "side-balance": 0.0,
             "side-level": 0.0,
             "softclip": true,
