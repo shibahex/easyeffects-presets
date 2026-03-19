@@ -43,7 +43,7 @@
             "mode": "LR > L+R (Mono Sum L+R)",
             "mutel": false,
             "muter": false,
-            "output-gain": 22.0,
+            "output-gain": 0,
             "phasel": false,
             "phaser": false,
             "sc-level": 10.0,
