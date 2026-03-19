@@ -24,7 +24,7 @@
             "output-gain": 0.0,
             "release": 2000.0,
             "use-standard-model": true,
-            "vad-thres": 50.0,
+            "vad-thres": 95.0,
             "wet": 0.0
         },
         "stereo_tools#0": {
