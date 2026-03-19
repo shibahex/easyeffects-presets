@@ -13,8 +13,8 @@
         "blocklist": [],
         "plugins_order": [
             "stereo_tools#0",
-            "rnnoise#1",
-            "autogain#0"
+            "autogain#0",
+            "rnnoise#1"
         ],
         "rnnoise#1": {
             "bypass": false,
@@ -22,7 +22,7 @@
             "input-gain": 0.0,
             "model-name": "\"\"",
             "output-gain": 0.0,
-            "release": 20.0,
+            "release": 2000.0,
             "use-standard-model": true,
             "vad-thres": 50.0,
             "wet": 0.0
