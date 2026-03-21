@@ -14,6 +14,7 @@
         "plugins_order": [
             "stereo_tools#0",
             "autogain#0",
+            "speex#0",
             "rnnoise#1"
         ],
         "rnnoise#1": {
@@ -26,6 +27,20 @@
             "use-standard-model": true,
             "vad-thres": 95.0,
             "wet": 0.0
+        },
+        "speex#0": {
+            "bypass": false,
+            "enable-agc": false,
+            "enable-denoise": false,
+            "enable-dereverb": false,
+            "input-gain": 0.0,
+            "noise-suppression": -1,
+            "output-gain": 0.0,
+            "vad": {
+                "enable": true,
+                "probability-continue": 90,
+                "probability-start": 95
+            }
         },
         "stereo_tools#0": {
             "balance-in": 0.0,
