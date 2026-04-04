@@ -23,23 +23,23 @@
             "input-gain": 0.0,
             "model-name": "\"\"",
             "output-gain": 0.0,
-            "release": 2000.0,
+            "release": 3000.0,
             "use-standard-model": true,
             "vad-thres": 95.0,
             "wet": 0.0
         },
         "speex#0": {
-            "bypass": false,
+            "bypass": true,
             "enable-agc": false,
             "enable-denoise": false,
             "enable-dereverb": false,
             "input-gain": 0.0,
-            "noise-suppression": -1,
+            "noise-suppression": -70,
             "output-gain": 0.0,
             "vad": {
-                "enable": true,
-                "probability-continue": 90,
-                "probability-start": 95
+                "enable": false,
+                "probability-continue": 85,
+                "probability-start": 90
             }
         },
         "stereo_tools#0": {
