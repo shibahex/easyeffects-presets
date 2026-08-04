@@ -1,21 +1,21 @@
 {
     "input": {
-        "autogain#0": {
-            "bypass": true,
+        "autogain#1": {
+            "bypass": false,
             "force-silence": false,
             "input-gain": 0.0,
-            "maximum-history": 15,
+            "maximum-history": 30,
             "output-gain": 0.0,
-            "reference": "Integrated",
+            "reference": "Geometric Mean (MSI)",
             "silence-threshold": -70.0,
-            "target": -12.0
+            "target": -30.0
         },
         "blocklist": [],
         "plugins_order": [
             "stereo_tools#0",
-            "autogain#0",
             "speex#0",
-            "rnnoise#1"
+            "rnnoise#1",
+            "autogain#1"
         ],
         "rnnoise#1": {
             "bypass": false,
@@ -54,7 +54,7 @@
             "mode": "LR > L+R (Mono Sum L+R)",
             "mutel": false,
             "muter": false,
-            "output-gain": 10.0,
+            "output-gain": 13.0,
             "phasel": false,
             "phaser": false,
             "sc-level": 10.0,
