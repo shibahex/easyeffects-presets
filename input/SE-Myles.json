@@ -1,7 +1,7 @@
 {
     "input": {
         "autogain#1": {
-            "bypass": false,
+            "bypass": true,
             "force-silence": false,
             "input-gain": 0.0,
             "maximum-history": 30,
@@ -54,7 +54,7 @@
             "mode": "LR > L+R (Mono Sum L+R)",
             "mutel": false,
             "muter": false,
-            "output-gain": 13.0,
+            "output-gain": 10.0,
             "phasel": false,
             "phaser": false,
             "sc-level": 10.0,
