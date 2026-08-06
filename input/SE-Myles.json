@@ -8,7 +8,7 @@
             "output-gain": 0.0,
             "reference": "Momentary",
             "silence-threshold": -70.0,
-            "target": -18.0
+            "target": -34.0
         },
         "blocklist": [],
         "limiter#0": {
