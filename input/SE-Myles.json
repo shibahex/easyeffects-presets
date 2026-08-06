@@ -73,7 +73,7 @@
         "stereo_tools#0": {
             "balance-in": 0.0,
             "balance-out": 0.0,
-            "bypass": false,
+            "bypass": true,
             "delay": 0.0,
             "dry": -100.0,
             "input-gain": 0.0,
