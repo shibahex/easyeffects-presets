@@ -75,7 +75,7 @@
             "wet": 0.0
         },
         "speex#0": {
-            "bypass": true,
+            "bypass": false,
             "enable-agc": false,
             "enable-denoise": false,
             "enable-dereverb": false,
@@ -84,8 +84,8 @@
             "output-gain": 0.0,
             "vad": {
                 "enable": true,
-                "probability-continue": 85,
-                "probability-start": 90
+                "probability-continue": 60,
+                "probability-start": 65
             }
         },
         "stereo_tools#0": {
