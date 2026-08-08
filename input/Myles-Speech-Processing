@@ -1,0 +1,97 @@
+{
+    "input": {
+        "autogain#1": {
+            "bypass": false,
+            "force-silence": false,
+            "input-gain": 0.0,
+            "maximum-history": 30,
+            "output-gain": 0.0,
+            "reference": "Momentary",
+            "silence-threshold": -70.0,
+            "target": -34.0
+        },
+        "blocklist": [],
+        "limiter#0": {
+            "alr": true,
+            "alr-attack": 5.0,
+            "alr-knee": 0.0,
+            "alr-knee-smooth": -5.0,
+            "alr-release": 50.0,
+            "attack": 5.0,
+            "bypass": false,
+            "dithering": "None",
+            "gain-boost": true,
+            "input-gain": 0.0,
+            "input-to-link": -80.01,
+            "input-to-sidechain": -80.01,
+            "link-to-input": -80.01,
+            "link-to-sidechain": -80.01,
+            "lookahead": 5.0,
+            "mode": "Herm Thin",
+            "output-gain": 0.0,
+            "oversampling": "None",
+            "release": 5.0,
+            "sidechain-preamp": 0.0,
+            "sidechain-to-input": -80.01,
+            "sidechain-to-link": -80.01,
+            "sidechain-type": "Internal",
+            "stereo-link": 100.0,
+            "threshold": 0.0
+        },
+        "plugins_order": [
+            "stereo_tools#0",
+            "speex#0",
+            "rnnoise#1",
+            "autogain#1",
+            "limiter#0"
+        ],
+        "rnnoise#1": {
+            "bypass": true,
+            "enable-vad": true,
+            "input-gain": 0.0,
+            "model-name": "\"\"",
+            "output-gain": 0.0,
+            "release": 3000.0,
+            "use-standard-model": true,
+            "vad-thres": 80.0,
+            "wet": 0.0
+        },
+        "speex#0": {
+            "bypass": false,
+            "enable-agc": false,
+            "enable-denoise": false,
+            "enable-dereverb": false,
+            "input-gain": 0.0,
+            "noise-suppression": -70,
+            "output-gain": 0.0,
+            "vad": {
+                "enable": true,
+                "probability-continue": 98,
+                "probability-start": 99
+            }
+        },
+        "stereo_tools#0": {
+            "balance-in": 0.0,
+            "balance-out": 0.0,
+            "bypass": true,
+            "delay": 0.0,
+            "dry": -100.0,
+            "input-gain": 0.0,
+            "middle-level": 0.0,
+            "middle-panorama": 0.0,
+            "mode": "LR > L+R (Mono Sum L+R)",
+            "mutel": false,
+            "muter": false,
+            "output-gain": 0.0,
+            "phasel": false,
+            "phaser": false,
+            "sc-level": 10.0,
+            "side-balance": 0.0,
+            "side-level": 0.0,
+            "softclip": false,
+            "stereo-base": 0.0,
+            "stereo-phase": 0.0,
+            "wet": 0.0
+        }
+    }
+}
