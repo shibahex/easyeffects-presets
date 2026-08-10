@@ -4,7 +4,7 @@
             "bypass": false,
             "force-silence": false,
             "input-gain": 0.0,
-            "maximum-history": 30,
+            "maximum-history": 120,
             "output-gain": 0.0,
             "reference": "Momentary",
             "silence-threshold": -70.0,
@@ -37,7 +37,7 @@
             "attack": 5.0,
             "bypass": false,
             "dithering": "None",
-            "gain-boost": true,
+            "gain-boost": false,
             "input-gain": 0.0,
             "input-to-link": -80.01,
             "input-to-sidechain": -80.01,
@@ -53,7 +53,7 @@
             "sidechain-to-link": -80.01,
             "sidechain-type": "Internal",
             "stereo-link": 100.0,
-            "threshold": 0.0
+            "threshold": -10.0
         },
         "plugins_order": [
             "stereo_tools#0",
@@ -69,13 +69,13 @@
             "input-gain": 0.0,
             "model-name": "\"\"",
             "output-gain": 0.0,
-            "release": 3000.0,
-            "use-standard-model": true,
-            "vad-thres": 80.0,
+            "release": 6000.0,
+            "use-standard-model": false,
+            "vad-thres": 70.0,
             "wet": 0.0
         },
         "speex#0": {
-            "bypass": true,
+            "bypass": false,
             "enable-agc": false,
             "enable-denoise": false,
             "enable-dereverb": false,
@@ -84,8 +84,8 @@
             "output-gain": 0.0,
             "vad": {
                 "enable": true,
-                "probability-continue": 75,
-                "probability-start": 80
+                "probability-continue": 80,
+                "probability-start": 85
             }
         },
         "stereo_tools#0": {
